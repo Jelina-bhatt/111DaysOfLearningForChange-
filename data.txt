@@ -3,3 +3,21 @@ why to explore dataset
 1-Understand the data set
 2-identify the problems
 3-plan next steps
+
+
+why to understand data
+
+1-as we dont know how many rows and columns are there
+2-what type of data they are handling
+3-where is missing data
+
+info()
+method
+
+from these two we will get to know
+
+1-number of rows and columns
+2-columns name
+3-int64 float64
+4-non null counts
+5-memory usage of data frame
