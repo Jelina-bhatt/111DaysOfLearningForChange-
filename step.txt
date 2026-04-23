@@ -1,0 +1,19 @@
+1- select specific column
+2- filter rows
+3- combine multiple conditions
+
+how can we access column
+1-using square brackets
+
+how can we access rows
+1-using boolean condition
+
+
+things to be considered
+while selecting one column at a time then series is returned
+otherwise in multiple columns data frame is used
+
+
+
+filtering rows
+boolean indexing
