@@ -1,3 +1,10 @@
+"""
+1- how big is your dataset
+2- what are the names of colums
+
+shape(how many rows and columns are there) and colums(gives column name)
+"""
+
 import pandas as pd
 data ={
     "Name":['rubina','amit', 'saroj','bhawana','bindu','apekshya','binod','ashika'],
@@ -7,7 +14,6 @@ data ={
 }
 
 df=pd.DataFrame(data)
-print("sample dataframe")
-print(df)
-print("descriptive dataframe")
-print(df.describe())
+
+print(f'Shape:{df.shape}')
+print(f'Column Names:{df.columns}')
