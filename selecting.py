@@ -9,10 +9,11 @@ data ={
 df=pd.DataFrame(data)
 print(df)
 
-#selecting single column
+#selecting single column 
 print("Names (single column return series)")
 print(df["Name"])
 
 #selecting multiple columns
 subset =df[["Name","Age"]]
 print(subset)
+
