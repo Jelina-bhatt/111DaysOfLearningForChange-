@@ -9,5 +9,7 @@ data ={
 df=pd.DataFrame(data)
 print(df)
 
-df.drop(columns=["Performance score"], inplace=True)
+
+print("modified data")
+df.drop(columns=["Performance score","Age"], inplace=True)
 print(df)
